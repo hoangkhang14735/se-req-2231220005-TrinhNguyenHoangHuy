@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:05:17.022Z",
+  "savedAt": "2026-05-29T11:05:55.620Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "b1c217d0-504e-4cf7-8fc2-a79a1251fd95",
+      "title": "Scan textbook barcode for listing",
+      "description": "As a Student, I want to scan a textbook barcode with my phone camera, so that I can create a textbook listing without manually typing its ISBN and title.\n\nAcceptance Criteria:\n- When camera permission is granted, the student can scan a readable textbook barcode.\n- When a recognized barcode is scanned, the system fills in the ISBN and available title information.\n- When the barcode cannot be recognized, the system displays an error and allows manual entry.",
+      "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
