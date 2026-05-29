@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:09:14.052Z",
+  "savedAt": "2026-05-29T11:09:43.426Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -22,6 +22,16 @@
       "id": "ea7d025a-76f3-4deb-9087-85442433a4a2",
       "title": "Place mobile food order",
       "description": "As a Student, I want to place a food order from my phone before arriving at the cafeteria, so that I can reduce my waiting time during the lunch rush.\n\nAcceptance Criteria:\n- When a student selects available menu items and confirms the order, the system creates an order successfully.\n- When an order is accepted, the student receives an order confirmation with the selected items.\n- When a menu item is marked as sold out, the student cannot submit a new order containing that item.",
+      "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "69502751-9c47-448b-a594-40bef9151910",
+      "title": "Filter menu by allergen",
+      "description": "As a Student, I want to filter the menu by allergens, so that I can avoid viewing or ordering food that may be unsafe for me.\n\nAcceptance Criteria:\n- When a student selects the \"No Peanuts\" filter, menu items containing peanuts are hidden from the visible menu.\n- When multiple allergen filters are selected, any item containing one of the selected allergens is hidden.\n- When filters are cleared, the full available menu is displayed again.",
       "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
       "status": "todo",
       "type": "User Story",
