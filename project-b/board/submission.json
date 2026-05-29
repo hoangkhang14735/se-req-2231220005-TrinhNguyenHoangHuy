@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T10:51:56.468Z",
+  "savedAt": "2026-05-29T11:04:42.332Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "ad72b560-1214-42cc-85c6-13afc02157a7",
+      "title": "Register with verified university email",
+      "description": "As a Student, I want to create an account using my verified university email address, so that I can securely access the campus marketplace.\n\nAcceptance Criteria:\n- When a user enters a valid .edu email address, the system sends a verification request.\n- When the user completes email verification, the account is activated.\n- When a user enters a non-.edu email address or does not complete verification, account creation is denied.",
+      "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "The requirement \"only people with a valid '.edu' email address can create an account\" is ambiguous because it does not define how the email address will be validated. It is unclear whether the system only checks the email format or requires an email verification link, and whether alumni or staff with university email addresses are allowed to register.",
     "ambiguity2": "The requirement \"the app should force users to select a safe zone before they can chat\" is ambiguous because it does not specify whether this applies to every conversation or only to transactions involving physical meetups. It is also unclear whether users selling digital items or only asking questions must select a meetup location before messaging.",
