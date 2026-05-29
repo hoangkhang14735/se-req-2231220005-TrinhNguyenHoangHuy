@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T10:43:18.871Z",
+  "savedAt": "2026-05-29T10:44:42.605Z",
   "groups": [
     {
       "id": "b7a7ead8-f9a1-45ad-8485-1daa8b0007c9",
@@ -22,8 +22,8 @@
     "ambiguity1": "The requirement \"the system needs to stop students from even asking whether they can take Course B without completing Course A\" is vague because it does not define exactly how the system should respond. It is unclear whether the system should block registration, display a warning, recommend prerequisite courses, or allow exceptions before advisor review.",
     "ambiguity2": "The requirement \"warn me if I am choosing a class that starts at 8:00 AM\" is vague because it is unclear whether the warning should apply only to exactly 8:00 AM classes or to all early morning classes. It also does not specify whether the warning is informational only or whether students can disable it.",
     "conflictSolution": "There is a conflict between the Registrar, who does not want students to add full classes to their roadmap, and the Head of Advising, who wants students to plan up to four years ahead even when future availability is unknown. The solution is to separate planning from enrollment. Students may add future courses to a long-term roadmap with an availability status such as \"planned - seat not guaranteed.\" For the current registration term, the system must check live capacity and prevent enrollment in classes that are already full.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security and Privacy: The system must ensure that students can access only their own academic roadmap and schedule information, while authorized advisors can access records required for advising.",
+    "nfr2": "Auditability: Every manual prerequisite override performed by an advisor must be recorded with the advisor identity, student, course, date, time, and reason for the override.",
+    "nfr3": "Data Accuracy and Availability: The system must integrate with the live course database so that current-term seat availability and prerequisite information are accurate when students plan or register for courses."
   }
 }
