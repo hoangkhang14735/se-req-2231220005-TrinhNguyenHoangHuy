@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:01:21.421Z",
+  "savedAt": "2026-05-29T11:01:56.508Z",
   "groups": [
     {
       "id": "b7a7ead8-f9a1-45ad-8485-1daa8b0007c9",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "cd1b4236-6226-4345-9a6d-58f2da8fc78d",
+      "title": "Override prerequisite for approved exception",
+      "description": "As an Advisor/Staff member, I want to manually override a prerequisite for an approved student exception, so that eligible special cases can proceed with course planning.\n\nAcceptance Criteria:\n- Only an authorized Advisor/Staff account can create a prerequisite override.\n- The system requires an override reason before the override can be saved.\n- After an override is saved, the system records the advisor, student, course, date, time, and reason.",
+      "groupId": "78bde608-125f-4ce9-b83e-66bc7af4ceca",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Advisor/Staff"
     }
   ],
   "analysis": {
