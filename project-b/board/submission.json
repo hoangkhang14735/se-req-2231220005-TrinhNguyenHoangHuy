@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:05:55.620Z",
+  "savedAt": "2026-05-29T11:06:30.778Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -46,6 +46,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "21635d22-c9ed-4c3a-aa74-62206ccbff3f",
+      "title": "Require safe exchange location for meetup",
+      "description": "As a Student, I want to select an approved Safe Exchange Zone for an in-person transaction, so that I can meet another student in a safer campus location.\n\nAcceptance Criteria:\n- When a transaction requires an in-person meetup, the system displays a list of university-approved Safe Exchange Zones.\n- A student must select one Safe Exchange Zone before arranging the physical meetup through chat.\n- The selected Safe Exchange Zone is visible to both participating students in the transaction conversa",
+      "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
