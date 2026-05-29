@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T10:57:08.390Z",
+  "savedAt": "2026-05-29T11:09:14.052Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "ea7d025a-76f3-4deb-9087-85442433a4a2",
+      "title": "Place mobile food order",
+      "description": "As a Student, I want to place a food order from my phone before arriving at the cafeteria, so that I can reduce my waiting time during the lunch rush.\n\nAcceptance Criteria:\n- When a student selects available menu items and confirms the order, the system creates an order successfully.\n- When an order is accepted, the student receives an order confirmation with the selected items.\n- When a menu item is marked as sold out, the student cannot submit a new order containing that item.",
+      "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "The requirement \"students should be able to order food on their phone while they are walking from class\" is vague because it does not define when an order is accepted, how pickup time is selected, or whether students can cancel or modify an order after submitting it. Without these rules, the ordering workflow cannot be implemented clearly.",
     "ambiguity2": "The requirement \"send push notifications to students at 11:30 AM offering them a discount on the daily special\" is vague because it does not specify which students should receive the notification, how often it can be sent, whether students must opt in, or how the discount amount and eligibility are determined.",
