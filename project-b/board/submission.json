@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:06:30.778Z",
+  "savedAt": "2026-05-29T11:07:10.444Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "e41074ce-177d-4ae9-a10d-70b9525a3df8",
+      "title": "Manage approved safe exchange zones",
+      "description": "As an Administrator/Staff member, I want to manage the list of approved Safe Exchange Zones, so that students are directed to appropriate campus locations for physical exchanges.\n\nAcceptance Criteria:\n- An authorized Administrator/Staff user can add a Safe Exchange Zone with a name and campus location.\n- An authorized Administrator/Staff user can deactivate a zone that is no longer available.\n- Students can select only zones currently marked as active.",
+      "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
     }
   ],
   "analysis": {
