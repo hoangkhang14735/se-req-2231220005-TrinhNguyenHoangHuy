@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-29T10:54:43.945Z",
+  "groups": [
+    {
+      "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "90cf4626-bd20-40cd-a6b4-5ecb1d42400d",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement \"students should be able to order food on their phone while they are walking from class\" is vague because it does not define when an order is accepted, how pickup time is selected, or whether students can cancel or modify an order after submitting it. Without these rules, the ordering workflow cannot be implemented clearly.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
