@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:09:43.426Z",
+  "savedAt": "2026-05-29T11:10:24.610Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "2d652b1c-b931-45bc-a79b-913425eed1e7",
+      "title": "Track food order status",
+      "description": "As a Student, I want to view the status of my food order, so that I know when my meal is ready for pickup.\n\nAcceptance Criteria:\n- After an order is submitted, the student can view its current status.\n- When kitchen staff update the order to \"Preparing\" or \"Ready\", the updated status is displayed to the student.\n- When an order is marked \"Ready\", the student can identify that it is available for pickup.",
+      "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
