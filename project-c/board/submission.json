@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:10:24.610Z",
+  "savedAt": "2026-05-29T11:10:52.907Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "47d79d1b-2de0-489e-a7fe-16a57b087a21",
+      "title": "Mark menu item as sold out",
+      "description": "As a Cafeteria Staff member, I want to mark a menu item as sold out immediately, so that students cannot order food that is no longer available.\n\nAcceptance Criteria:\n- An authorized Cafeteria Staff user can mark an available menu item as sold out.\n- After an item is marked as sold out, it is shown as unavailable to students.\n- The system prevents new orders containing an item currently marked as sold out.",
+      "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
     }
   ],
   "analysis": {
