@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T10:55:11.805Z",
+  "savedAt": "2026-05-29T10:56:03.223Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The requirement \"students should be able to order food on their phone while they are walking from class\" is vague because it does not define when an order is accepted, how pickup time is selected, or whether students can cancel or modify an order after submitting it. Without these rules, the ordering workflow cannot be implemented clearly.",
     "ambiguity2": "The requirement \"send push notifications to students at 11:30 AM offering them a discount on the daily special\" is vague because it does not specify which students should receive the notification, how often it can be sent, whether students must opt in, or how the discount amount and eligibility are determined.",
-    "conflictSolution": "",
+    "conflictSolution": "There is a potential conflict between the requirement for students to place mobile orders in real time and the IT Infrastructure Team's warning that the kitchen has unreliable Wi-Fi. If the connection fails, students could submit orders that the kitchen does not receive immediately. The solution is to allow students to place orders only when the ordering service confirms connection availability, while the kitchen display stores already-received orders locally and continues operating offline for at least 10 minutes. When the connection returns, the kitchen display synchronizes order status updates with the server.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
