@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:10:52.907Z",
+  "savedAt": "2026-05-29T11:11:19.542Z",
   "groups": [
     {
       "id": "11a1a53c-c4d2-46d2-a772-2d7448039b42",
@@ -52,6 +52,16 @@
       "id": "47d79d1b-2de0-489e-a7fe-16a57b087a21",
       "title": "Mark menu item as sold out",
       "description": "As a Cafeteria Staff member, I want to mark a menu item as sold out immediately, so that students cannot order food that is no longer available.\n\nAcceptance Criteria:\n- An authorized Cafeteria Staff user can mark an available menu item as sold out.\n- After an item is marked as sold out, it is shown as unavailable to students.\n- The system prevents new orders containing an item currently marked as sold out.",
+      "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
+    },
+    {
+      "id": "fd022908-7040-4ca5-a8d1-f0f81a99413c",
+      "title": "View incoming orders on kitchen display",
+      "description": "As a Cafeteria Staff member, I want to view incoming mobile orders on a kitchen display, so that I can prepare meals efficiently during busy periods.\n\nAcceptance Criteria:\n- When a student order is accepted, it appears on the kitchen display with its ordered items.\n- Staff can update an order status from received to preparing and then ready.\n- If internet connectivity is lost, already-received orders remain visible on the kitchen display for at least 10 minutes.",
       "groupId": "d96f07f7-df9c-41ed-b721-de2baea9ecad",
       "status": "todo",
       "type": "User Story",
