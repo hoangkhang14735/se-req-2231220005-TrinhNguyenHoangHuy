@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-29T10:49:06.608Z",
+  "groups": [
+    {
+      "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "234d49c9-497a-49de-a864-ddb820c5837d",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement \"only people with a valid '.edu' email address can create an account\" is ambiguous because it does not define how the email address will be validated. It is unclear whether the system only checks the email format or requires an email verification link, and whether alumni or staff with university email addresses are allowed to register.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
