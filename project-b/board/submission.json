@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T11:04:42.332Z",
+  "savedAt": "2026-05-29T11:05:17.022Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -22,6 +22,16 @@
       "id": "ad72b560-1214-42cc-85c6-13afc02157a7",
       "title": "Register with verified university email",
       "description": "As a Student, I want to create an account using my verified university email address, so that I can securely access the campus marketplace.\n\nAcceptance Criteria:\n- When a user enters a valid .edu email address, the system sends a verification request.\n- When the user completes email verification, the account is activated.\n- When a user enters a non-.edu email address or does not complete verification, account creation is denied.",
+      "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "70e763f1-caca-4b8a-8764-4e9933a9a84e",
+      "title": "Create item listing for sale",
+      "description": "As a Student, I want to create a listing for an item I no longer need, so that another student can reuse or purchase it.\n\nAcceptance Criteria:\n- A verified student can enter an item title, description, category, condition, and price.\n- When all required listing information is provided, the item can be published to the marketplace.\n- When required information is missing, the system prevents publishing and identifies the missing fields.",
       "groupId": "16efb1c2-20f3-4eec-9205-39fd72a3e661",
       "status": "todo",
       "type": "User Story",
