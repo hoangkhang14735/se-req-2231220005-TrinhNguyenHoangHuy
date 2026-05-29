@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-29T10:49:56.566Z",
+  "savedAt": "2026-05-29T10:51:14.669Z",
   "groups": [
     {
       "id": "37fe476d-84fe-47cd-9fe2-89f013912c7e",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The requirement \"only people with a valid '.edu' email address can create an account\" is ambiguous because it does not define how the email address will be validated. It is unclear whether the system only checks the email format or requires an email verification link, and whether alumni or staff with university email addresses are allowed to register.",
     "ambiguity2": "The requirement \"the app should force users to select a safe zone before they can chat\" is ambiguous because it does not specify whether this applies to every conversation or only to transactions involving physical meetups. It is also unclear whether users selling digital items or only asking questions must select a meetup location before messaging.",
-    "conflictSolution": "",
+    "conflictSolution": "There is a conflict between the University Legal Team, which states that the application cannot process payments or handle money, and the Student Union President, who wants to collect a 2% transaction fee to fund club activities. The solution is that CampusLoop will not process payments or automatically deduct transaction fees. Students will arrange payments independently through cash or an external payment service. The app may optionally display a voluntary donation link for the Student Union, clearly separated from marketplace transactions.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
